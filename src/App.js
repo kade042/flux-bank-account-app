@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div>
         <header>FluxTrust Bank</header>
-        <h1>Your balance is ${(this.state.balance).toFixed(2)}</h1>
+        <h1>Your balance is $ {(this.state.balance).toFixed(2)}</h1>
         <div className='atm'>
           <input type='text' placeholder='Enter Amount' ref='amount' />
           <br />
